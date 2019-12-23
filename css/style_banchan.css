@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "맑은 고딕";
+}
+
+
+
+.wrapper{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+
+header{
+    width: 100%;
+    height: 200px;
+}
+.logo{
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 12.5px;
+}
+.search{
+    width: 770px;
+    margin: 0 auto;
+}
+.search input{
+    width: 700px;
+    height: 30px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+}
+.search button{
+    background: none;
+    border: none;
+    position: absolute;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.search hr{
+    border: 0.5px solid #000000;
+    margin-top: 10px;
+}
+header p{
+    float: left;
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 1000px;
+}
+header p a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    margin: 0 3px;
+}
+header p a:hover{
+    text-decoration: underline;
+}
+
+
+
+nav{
+    width: 100%;
+    height: 45px;
+    background-color: #bd8b66;
+}
+nav ul{
+    list-style: none;
+    width: 1050px;
+    height: inherit;
+    margin: 0 auto;
+}
+nav ul li{
+    width: 150px;
+    height: inherit;
+    float: left;
+    text-align: center;
+    color: #ffffff;
+    line-height: 45px;
+}
+nav ul li:hover{
+    background-color: #ffffff;
+    color: #bd8b66;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+#contents{
+    color: #666666;
+}
+#contents h2{
+    text-align: center;
+    color: #bd8b66;
+    font-weight: 400;
+    margin-top: 10px;
+}
+#contents h2 span{
+    font-weight: 700;
+    font-size: 38px;
+}
+.mainImg{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+
+.New{
+    width: 100%;
+    height: 520px;
+}
+
+
+
+.Recommended{
+    width: 100%;
+    height: 820px;
+}
+
+
+.banchanz{
+    padding-top: 30px;
+    margin: 0px 151px;
+}
+.banchan{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: inline-block;
+    text-align: center;
+}
+.banchan img{
+    width: 270px;
+    height: 202.5px;
+    border-radius: 20px;
+}
+.banchan p{
+    color: #000000;
+    font-size: 18px;
+}
+.banchan h4{
+    color: #000000;
+    font-size: 20px;
+}
+
+
+
+.GongJi{
+    width: 50%;
+    height: 380px;
+    display: inline-block;
+    float: left;
+}
+.GongJi table{
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.GongJi table th{
+    color: #000000;
+    font-size: 20px;
+    padding: 3.5px 0px;
+    border-bottom: 1px solid #666666;
+}
+.GongJi table td{
+    padding: 7px 0px;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 1px solid #999999;
+    cursor: pointer;
+}
+
+
+
+.Infor{
+    width: 50%;
+    height: 380px;
+    display: inline-block;
+    float: right;
+}
+.Infor h2{
+    width: 600px;
+}
+#buttonz{
+    border: 1px solid #000000;
+    width: 420px;
+    padding: 15px;
+    margin-top: 70px;
+    margin-left: 72px;
+}
+#buttonz button{
+    background-color: #000000;
+    margin: 0 12.5px;
+    border: none;
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+footer{
+    width: 75%;
+    height: 200px;
+    display: inline-block;
+    bottom: 0px;
+    padding-top: 20px;
+    margin: 0 60px;
+}
+footer p{
+    font-size: 12px;
+    color: #666666;
+}
+
+footer p a{
+    color: #666666;
+    text-decoration: none;
+    margin-right: 15px;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+footer ul{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 850px;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li span{
+    font-size: 32px;
+    font-weight: 700;
+}
